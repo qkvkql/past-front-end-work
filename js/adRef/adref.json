@@ -1,0 +1,327 @@
+{
+	"COSMOS":
+	{
+		"COSMOS-G1":
+		{
+			"sugar daddy": "siberia",
+			"rich sugar daddy": "good",
+			"a sugar daddy": "belle",
+			"sugardaddymeet": "lynx",
+			"sugar daddy wanted": "large",
+			"sugarbabymeet": "Gorgeous",
+			"daddy site": "Lynx",
+			"sugar daddy dating websites": "react",
+			"sugar dating sites": "exp",
+			"sugar baby": "smile",
+			"gay sugar daddy": "force",
+			"sugar daddy personals": "panda",
+			"find a sugar daddy": "bobcat",
+			"sugar daddy online dating": "mass",
+			"sugar daddy dating sites": "sweet",
+			"sugar daddy search": "safe",
+			"my sugar baby": "Caracal",
+			"i need a sugar daddy": "cheetah",
+			"sugar baby dating": "Jaguar",
+			"seeking arrangement": "-1046",
+			"millionaire sugar daddy": "cute",
+			"the sugar babies": "Panther",
+			"free sugar daddy dating sites": "FelisServal",
+			"black sugar daddy": "Bobcat",
+			"sugar daddy find": "Caspian",
+			"i want a sugar daddy": "Lion",
+			"sugar baby wanted": "mrr",
+			"sugar baby for me": "cougar",
+			"sugar daddy sites": "panther",
+			"daddy sugar": "ocelot",
+			"sugar daddy arrangements": "Koala",
+			"seeking sugar baby": "Cougar",
+			"find your sugar daddy": "emo",
+			"daddy dating site": "Panda",
+			"become a sugar baby": "Ocelot",
+			"sugar dating websites": "Leopard",
+			"websites to find sugar daddies": "luv",
+			"seeking daddy": "Khan",
+			"the sugar daddy": "Cheetah",
+			"sugar daddy for me free website": "Remdesivir",
+			"sugar daddy sites free for sugar babies": "val",
+			"sugar daddy websites free for sugar babies": "sun",
+			"a sugar baby": "exp01",
+			"looking for sugar baby": "exp02",
+			"sugar daddy app": "storyteller",
+			"get me a sugar daddy": "koala",
+			"seeking sugar": "Manul",
+			"sugar daddy send me money": "caracal",
+			"secret sugar baby": "manul",
+			"a sugar dating": "cd",
+			"sugar baby search": "hug",
+			"free sugar daddy dating": "2019-nCoV"
+		},
+		"COSMOS-G2":
+		{
+			"sugar daddy sites": "jaguar",
+			"sugar daddy websites": "leopard",
+			"sugar babies website": "Siberia",
+			"sugar daddy dating sites": "lion",
+			"sugar daddy dating": "tiger",
+			"sugar baby dating sites": "Tiger"
+		}
+	},
+	"FK001":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "221",
+			"sugar daddy sites": "234",
+			"sugar daddy dating sites": "363",
+			"sugar babies website": "386"
+		},
+		"Geo": "USA"
+	},
+	"FK002":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "-202",
+			"sugar daddy sites": "-207",
+			"sugar daddy dating sites": "-221",
+			"sugar babies website": "-316"
+		},
+		"Geo": "UK"
+	},
+	"FK003":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "-771",
+			"sugar daddy sites": "1115",
+			"sugar daddy dating sites": "1236",
+			"sugar babies website": "534"
+		},
+		"Geo": "Canada"
+	},
+	"FK004":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "535",
+			"sugar daddy sites": "556",
+			"sugar daddy dating sites": "557",
+			"sugar babies website": "581"
+		},
+		"Geo": "Australia"
+	},
+	"FK005":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "618",
+			"sugar daddy sites": "742",
+			"sugar daddy dating sites": "755",
+			"sugar babies website": "756"
+		},
+		"Geo": "Germany"
+	},
+	"FK006":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "757",
+			"sugar daddy sites": "907",
+			"sugar daddy dating sites": "ad1234",
+			"sugar babies website": "Jon688aaaaa"
+		},
+		"Geo": "France"
+	},
+	"FK007":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "Jon688aabaa",
+			"sugar daddy sites": "Jon688abaaa",
+			"sugar daddy dating sites": "Jon688abbaa",
+			"sugar babies website": "Jon688ax"
+		},
+		"Geo": "New Zeland"
+	},
+	"FK008":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "Jon688baaaa",
+			"sugar daddy sites": "Jon688babaa",
+			"sugar daddy dating sites": "Jon688bbaaa",
+			"sugar babies website": "Jon688bbbaa"
+		},
+		"Geo": "Italy"
+	},
+	"FK009":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "Jon688-08",
+			"sugar daddy sites": "Jon688-09",
+			"sugar daddy dating sites": "Jon688_5",
+			"sugar babies website": "Jon688_6"
+		},
+		"Geo": "Spain"
+	},
+	"FK010":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "Jon688_1",
+			"sugar daddy sites": "Jon688_2",
+			"sugar daddy dating sites": "Jon688_3",
+			"sugar babies website": "Jon688_4"
+		},
+		"Geo": "Austria"
+	},
+	"FK011":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "Jon688_7",
+			"sugar daddy sites": "Jon688_8",
+			"sugar daddy dating sites": "Jon688_9",
+			"sugar babies website": "Jon688_10"
+		},
+		"Geo": "Switzerland"
+	},
+	"FK012":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "Jon688_11",
+			"sugar daddy sites": "Jon688_12",
+			"sugar daddy dating sites": "Jon688_13",
+			"sugar babies website": "Jon688_14"
+		},
+		"Geo": "Denmark"
+	},
+	"FK013":
+	{
+		"G1":
+		{
+			"sugar daddy websites": "Jon688_15",
+			"sugar daddy sites": "Jon688_16",
+			"sugar daddy dating sites": "Jon688_17",
+			"sugar babies website": "Jon688_18"
+		},
+		"Geo": "Sweden"
+	},
+	"581":
+	{
+		"604":
+		{
+			"sugar daddy websites": "Jon688-1"
+		}
+	},
+	"618":
+	{
+		"650":
+		{
+			"sugar daddy websites": "Jon688-2"
+		},
+		"712":
+		{
+			"sugar daddy sites": "Jon688-3"
+		},
+		"742":
+		{
+			"sugar daddy dating sites": "Jon688-4"
+		}
+	},
+	"USA-WILD":
+	{
+		"WILD-G1":
+		{
+			"sugar daddy websites": "Jon688-21"
+		},
+		"WILD-G2":
+		{
+			"sugar daddy sites": "Jon688-22"
+		},
+		"WILD-G3":
+		{
+			"sugar daddy dating sites": "Jon688-23"
+		},
+		"WILD-G4":
+		{
+			"sugar babies website": "Jon688-24"
+		}
+	},
+	"USA-H":
+	{
+		"H1-G2":
+		{
+			"sugar daddy sites": "Jon688-02"
+		},
+		"H1-G3":
+		{
+			"suar daddy dating sites": "Jon688-03"
+		},
+		"H1-G4":
+		{
+			"sugar babies website": "Jon688-04"
+		},
+		"H1-G5":
+		{
+			"sugar baby sites": "Jon688-05"
+		},
+		"H1-G6":
+		{
+			"sugar baby dating sites": "Jon688-06"
+		},
+		"H1-G7":
+		{
+			"sugar daddy dating": "Jon688-07"
+		},
+		"H2-G4":
+		{
+			"sugar babies website": "Jon688-14"
+		},
+		"H2-G5":
+		{
+			"sugar baby sites": "Jon688-15"
+		},
+		"H2-G6":
+		{
+			"sugar baby dating sites": "Jon688-16"
+		},
+		"H2-G7":
+		{
+			"sugar daddy dating": "Jon688-17"
+		}
+	},
+	"Australia-H":
+	{
+		"H1-G1":
+		{
+			"sugar daddy websites": "Jon688-01"
+		},
+		"H1-G2":
+		{
+			"sugar daddy sites": "Jon688-02"
+		},
+		"H1-G3":
+		{
+			"sugar daddy dating sites": "Jon688-03"
+		},
+		"H1-G4":
+		{
+			"sugar babies website": "Jon688-04"
+		},
+		"H1-G5":
+		{
+			"sugar baby sites": "Jon688-05"
+		},
+		"H1-G6":
+		{
+			"sugar baby dating sites": "Jon688-06"
+		},
+		"H1-G7":
+		{
+			"sugar daddy dating": "Jon688-07"
+		}
+	}
+}

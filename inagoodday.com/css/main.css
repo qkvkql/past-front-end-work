@@ -1,0 +1,134 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+header{
+	width: 100%;
+}
+header:after{
+	display:block;
+	clear: both;
+	content: '';
+}
+.header-left{
+	float: left;
+	width: 80px;
+	height: 80px;
+	background: -webkit-linear-gradient(left,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to right,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Standard */
+}
+.header-center{
+	float: left;
+	height: 40px;
+	border-bottom: 2px solid #000000;
+}
+.header-right{
+	float: right;
+	width: 80px;
+	height: 80px;
+	background: -webkit-linear-gradient(top,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Standard */
+}
+footer{
+	width: 100%;
+}
+footer:after{
+	display:block;
+	clear: both;
+	content: '';
+}
+.footer-left{
+	float: left;
+	width: 80px;
+	height: 80px;
+	background: -webkit-linear-gradient(bottom,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to top,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Standard */
+}
+.footer-center{
+	float: left;
+	height: 40px;
+	border-bottom: 2px solid #000000;
+}
+.footer-right{
+	float: right;
+	width: 80px;
+	height: 80px;
+	background: -webkit-linear-gradient(right,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to left,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Standard */
+}
+.header-left, .header-right, .footer-left, .footer-right{
+	border: 1px solid #000000;
+	border-radius: 50%;
+}
+.content-wrapper{
+	width: 100%;
+}
+.content{
+	width: 100%;
+	margin: 50px 0;
+}
+.title-wrapper{
+	width: 100%;
+	margin: 24px 0;
+}
+.title{
+	font-family:'Courier New', Courier, monospace;
+	text-align: center;
+	padding: 0 0 24px 0;
+	font-size: 24px;
+}
+.btn-wrapper{
+	width: 100%;
+	margin: 24px 0;
+	text-align: center;
+}
+.btn{
+	width: 256px;
+	padding: 18px 36px;
+	border-radius: 8px;
+	background: #ff0000;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 24px;
+}
+.btn:hover{
+	background: #e50707;
+}
+.app-wrapper{
+	width: 100%;
+	margin: 48px 0 0 0;
+}
+.app-wrapper:after{
+	display:block;
+	clear: both;
+	content: '';
+}
+.ios{
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+.ios>a{
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 24px 0 0;
+}
+.android{
+	float: right;
+	width: 50%;
+}
+.android>a{
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 0 0 24px;
+}

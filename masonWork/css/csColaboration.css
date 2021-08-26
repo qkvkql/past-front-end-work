@@ -1,0 +1,72 @@
+#project{
+    color: #adff2f;
+}
+#option{
+    color: #0000ff;
+}
+#profileNumber, #pageNumber, #interval, #personNumber{
+    color: #ff0000;
+}
+button{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    padding: 12px 0;
+    font-size: 24px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #808080;
+    border-radius: 8px;
+}
+button:hover{
+    color: #0000ff;
+    border-color: #000000;
+    cursor: pointer;
+}
+button:focus{
+    color: #ff0000;
+    border-color: #0000ff;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow:none;
+}
+#btn-wrapper{
+    width: 100%;
+    margin: 0;
+}
+#btn-wrapper:after{
+    content:'';
+	display:block;
+	clear:both;
+}
+.btn{
+    float: left;
+    width: 20%;
+    margin: 18px 0;
+}
+@media screen and (max-width:1200px){
+	.btn{
+		width: 25%;
+	}
+}
+@media screen and (max-width:900px){
+	.btn{
+		width: 33.3%;
+	}
+}
+@media screen and (max-width:700px){
+	.btn{
+		width: 50%;
+	}
+}
+@media screen and (max-width:500px){
+	.btn{
+		width: 100%;
+	}
+}

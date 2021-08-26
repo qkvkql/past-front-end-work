@@ -1,0 +1,44 @@
+{
+	"publicBtnName":  [
+		"SDM_I",
+		"SDM_AppleAppStore",
+		"SDM_GooglePlay",
+		"TD_STAT",
+
+		"GENDER_STAT",
+		"GOLD_Week",
+		"GOLD_Daily",
+		"TID_INFO",
+		
+		"DAILY_STAT",
+		"EncodeTerms",
+		"MaleGoldRatio",
+		"CurrentMonthGold",
+		
+		"Title03",
+		"Description01",
+		"Description02",
+		"NULL"
+	],
+	"classedBtnName": [
+		"toBaby01",
+		"toDaddy01",
+		"toBaby02",
+		"toDaddy02",
+		
+		"toBaby03",
+		"toDaddy03",
+		"toBaby04",
+		"toDaddy04"
+	],
+	"title": "FAST COPY",
+	"bgUnclicked": "#104b79",
+	"bgClicked": "#0f0f0f",
+	"bgHeader": "#999999",
+	"bgFooter": "#999999",
+	"bgBtnPublic": "#93cf96",
+	"bgBtnClass1": "#86665a",
+	"bgBtnClass2": "#00695f",
+	"textColorOfHeader": "#ffffff",
+	"textColorOfBtn": "#cddc39"
+}

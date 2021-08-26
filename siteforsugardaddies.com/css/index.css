@@ -1,0 +1,591 @@
+@charset "utf-8";
+/*a*/
+.window_sdm p, .window_sdm p:hover, .indexdir_div a:hover{
+	text-decoration:underline;
+}
+.window_sdm p:hover{
+	cursor:pointer;
+}
+.sdm_btn a, .sdm_btn a:hover{
+	color:#ffffff;
+}
+.sdm_href a{
+	margin:0.5rem auto 0.5rem 0;
+	padding:0 0.5rem;
+	color:#000000;
+}
+.sdm_href a, .sdm_href a:hover, .sdm_href a:visited{
+	text-decoration:underline;
+}
+.sdm_href a:hover, .sdm_href a:active{
+	text-decoration-color:#ff0000;
+}
+/*overflow-y*/
+.user_display a, .mobile_icon div a, .asseenon div, .seenmedia div, .windowprofile_title{
+	overflow-y:hidden;
+}
+
+/*avoid height subside*/
+.header:after, .mobile_icon:after, .banner:after, .user_display:after, .index_directory:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+/*cursor*/
+.radio_left:hover, .radio_right:hover{
+	cursor:pointer;
+}
+
+/*font-family*/
+.logo a, .signup_btn, .window_btn, .introduction h2, #welcome, #forbescom, #wallstreetjournal, .userdisplay_cover div, .indexdir_div a{
+	font-family:"Times New Roman";
+}
+.window_profile, .mobile_icon div a{
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+/*font-size & color*/
+#members_number, #mmhomepage_guide{
+	font-size:18px;
+	color:#ccae14;
+}
+.logo a, .window_title, .mobile_icon div a, .userdisplay_cover div span, .indexdir_div a{
+	color:#ccae14;
+}
+.logo a{
+	font-size:24px;
+}
+.nav a, .window_sdm p, .winproti_container, .window_description, .introduction_container{
+	color:#ffffff;
+}
+#window_title{
+	font-size:18px;
+}
+.window_btn a, .signup_btn a{
+	font-size:18px;
+	color:#ffffff;
+}
+.userdisplay_cover div, .userdisplay_cover div span{
+	font-size:48px;
+}
+.userdisplay_cover div span{
+	font-weight:bold;
+}
+.introduction p, .introduction p span{
+	font-size:18px;
+}
+.introduction h2{
+	font-size:32px;
+}
+#forbescom, #wallstreetjournal{
+	font-size:20px;
+	color:#ccae14;
+}
+#welcome{
+	font-size:24px;
+}
+.indexdir_div a{
+	font-size:18px;
+}
+.footer{
+	font-size:12px;
+	color:#ffffff;
+}
+.sdmti_container h2, .sdmti_container h2 span{
+	font-size:20px;
+}
+.sdmti_container h2 span{
+	color:#ff0000;
+}
+.sdmclose_container{
+	color:#ffffff;
+}
+/*background & border*/
+.header, .footer{
+	background:#585755;
+}
+.user_display a img{
+	border:1px solid #c0c0c0;
+	border-radius:18px;
+}
+.user_display a img:hover{
+	border:1px solid #848BD8;
+	border-radius:0;
+}
+.banner{
+	background-image:url('../images/banner.jpg');
+	background-image:linear-gradient(rgba(37,33,30,0.3), rgba(37,33,30,0.3)), url("../images/banner.jpg");
+	background-size:cover;
+	background-position:center top;
+}
+
+.window_cutoffrule hr{
+	background-color:#616161;
+	border-width:0;
+}
+.window_display{
+	background:#333333;
+}
+.radio_left, .radio_right{
+	background:#ffffff;
+	border-radius:4px;
+}
+.window_btn a{
+	background:#b7a05b;
+}
+.signup_btn a{
+	background:#b7a05b;
+	border-radius:5px;
+}
+.window_display{
+	border:4px solid #616161;
+	border-radius:24px;
+}
+.window_btn a{	
+	border-radius:5px;
+}
+.mobile_icon div{
+	border:1px solid #616161;
+	border-radius:4px;	
+}
+.introduction_container, .intro_placeholder{
+	background:#212121;
+}
+.asseenon div, .seenmedia{
+	border-radius:8px;
+}
+.mmhomepage{
+	border:1px solid #616161;
+}
+.sdm_popup{
+	background:#000000;
+}
+.sdmpopup_container{
+	background:#ffffff;
+	border-radius:4px;
+}
+.sdm_text{
+	background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("../images/banner_sdm.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.sdm_btn a{
+	background:#ccae14;
+	border-radius:4px;
+}
+.window_sdm p:hover{
+	text-decoration-color:#ccae14;
+}
+.sdmclose_container{
+	background:#616161;
+	border-radius:4px;
+}
+/*opacity*/
+.window, .window_btn a, .signup_btn a, .mobile_icon div a, .sdm_btn a, .sdmclose_container{
+	-moz-opacity: 0.90!important;
+	filter:alpha(opacity=90);
+	opacity:0.9;
+}
+.window_btn a:hover, .signup_btn a:hover, .mobile_icon div a:hover, .sdm_btn a:hover, .sdmclose_container:hover{
+	-moz-opacity:1.00!important;
+	filter:alpha(opacity=100);
+	opacity:1.0;
+}
+.sdm_popup{
+	background-color:rgba(0,0,0,0.5);
+}
+
+
+/*LAYOUT*/
+.fixed_container{
+	position:fixed;
+	width:100%;
+	right:0;
+	top:0;
+}
+.header{
+	width:100%;
+}
+
+.header div a{
+	line-height:5rem;
+}
+.logo{
+	float:left;
+	margin-left:12%;
+}
+.nav{
+	float:right;
+	margin-right:12%;
+}
+.nav a:hover{
+	text-decoration:underline;
+}
+.nav_space{
+	padding-right:0.5rem;
+}
+.user_display{
+	width:80%;
+	margin:0 10%;
+	padding:10px 0;
+	text-align:center;
+}
+.user_display a{
+	display:block;
+	float:left;
+	width:18%;
+	margin:1%;
+}
+.user_display a img{
+	width:98%;
+}
+.content{
+	width:100%;
+}
+.banner{
+	position:relative;
+	width:100%;
+}
+.window{
+	float:right;
+	margin:24px 24%;
+}
+.window_title{
+	width:100%;
+}
+.window_title h1{
+	width:100%;
+	line-height:3rem;
+	text-align:center;
+}
+.window_description{
+	text-align:center;
+}
+.window_cutoffrule{
+	margin-left:4%;
+	width:92%;
+}
+.window_cutoffrule hr{
+	height:1px;
+}
+.windowprofile_title{
+	width:90%;
+	margin:0 5%;
+	height:3rem;
+	line-height:3rem;
+}
+.winproti_container{
+	display:inline-block;
+	width:100%;
+	height:2rem;
+	line-height:2rem;
+	vertical-align:bottom;
+}
+.windowprofile_content{
+	width:90%;
+	margin:0 5%;
+	height:4rem;
+}
+.radio_left, .radio_right{
+	display:block;
+	width:48%;
+	height:100%;
+}
+.radio_left{
+	float:left;
+}
+.radio_right{
+	float:right;
+}
+.radio_circle{
+	float:left;
+	width:20%;
+	line-height:4rem;
+	text-align:right;
+}
+.radio_circle input{
+	display:inline-block;
+	vertical-align:middle;
+}
+.radio_text{
+	float:right;
+	width:75%;
+	line-height:4rem;
+	vertical-align:middle;
+}
+.window_btn{
+	width:100%;
+}
+.window_btn a{
+	display:block;
+	width:76%;
+	margin:1.5rem 12% 0.5rem;
+	height:3rem;
+	line-height:3rem;
+	text-align:center;
+}
+.window_sdm{
+	width:76%;
+	margin:0.5rem 12% 0;
+}
+.window_sdm p{
+	display:inline-block;
+	padding:0.5rem;
+	margin-right:0.5rem;
+}
+.signup_btn{
+	width:20%;
+	margin:1rem 40% 3rem;
+}
+.signup_btn a{
+	display:block;
+	width:76%;
+	margin-left:12%;
+	height:3rem;
+	line-height:3rem;
+	text-align:center;
+}
+.mobile_icon{
+	width:76%;
+	margin:0.5rem 12%;
+}
+.mobile_icon div a{
+	display:block;
+	width:100%;
+}
+.mobile_icon div a img{
+	width:100%;
+}
+.appstore{
+	float:right;
+	width:35%;
+	margin-right:0;
+}
+.googleplay{
+	float:left;
+	width:35%;
+	margin-left:0;
+}
+.userdisplay_cover{
+	width:100%;
+	height:8rem;
+}
+.userdisplay_cover div{
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	line-height:8rem;
+	text-align:center;
+}
+.introduction_container, .intro_placeholder{
+	width:100%;
+}
+.introduction_container{
+	position:relative;
+}
+.introduction{
+	width:76%;
+	text-align:left;
+	padding:24px 12%;
+}
+.introduction h2, .introduction p{
+	display:block;
+	width:100%;
+}
+.introduction h2{	
+	margin:2rem 0 1rem;
+	text-align:center;
+}
+.introduction p{
+	margin:1rem 0;
+}
+.asseenon{
+	margin:32px 0 12px;
+	text-align:left;
+}
+.asseenon div{
+	display:inline-block;
+}
+.seenmedia{
+	width:100%;
+	margin:12px 0 32px;
+}
+.asseenon div img, .seenmedia img{
+	width:100%;
+}
+.mmhomepage{
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+}
+.mmhomepage img{
+	width:100%;
+}
+.index_directory{
+	width:100%;
+	margin:4rem 0 0;
+	text-align:left;
+	border-top:2px solid #616161;
+}
+.indexdir_div{
+	width:23%;
+	float:left;
+	margin:0 2% 0 0;
+	padding:0.5rem 0;
+}
+.footer{
+	position:relative;
+	width:100%;
+	padding:30px 0;
+	text-align:center;
+	line-height:25px;
+	float:left;
+}
+.sdm_popup{
+	position:fixed;
+	z-index:1;
+	width:100%;
+	height:100%;
+	display:none;
+	left:0;
+	top:0;
+}
+.sdmpopup_container{
+	margin:0 auto;
+}
+.sdm_cotent{
+	width:92%;
+	margin:20px 4% 10px;
+}
+.sdm_title, .sdm_text, .sdm_btn, .sdm_href, .sdm_close{
+	width:100%;
+}
+.sdmti_container{
+	margin:0 0 1rem;
+	text-align:center;
+}
+.sdmtext_container{
+	margin:0 0 1rem;
+}
+.sdm_btn{
+	text-align:center;
+}
+.sdm_btn a, .sdmclose_container{
+	display:inline-block;
+	padding:0.5rem 1rem;
+}
+.sdm_href{
+	margin:2rem 0;
+}
+.sdm_close{
+	text-align:center;
+}
+.sdmclose_container:hover{
+	cursor:pointer;
+}
+
+
+@media screen and (max-width:1200px){
+	.window{
+		margin:24px 20%;
+	}
+}
+
+@media screen and (max-width:1023px){/*align center horizontally of header float div while line break*/
+	.header div{/*immoilize the ratio of header container div*/
+		width:92%;
+		margin:0 4%;
+		line-height:2rem;
+		text-align:center;
+	}
+	.header div a{/*decrease the line height of a tag in header*/
+		line-height:2rem;
+	}
+	.logo{/*leave logo a padding from top of the header*/
+		padding:0.5rem 0 0 0;
+	}
+	.window{
+		margin:24px 16%;
+	}
+	.signup_btn{
+		width:40%;
+		margin-left:30%;
+	}
+	.userdisplay_cover div{
+		font-size:36px;
+	}
+}
+
+@media screen and (max-width:800px){
+	.window{
+		margin:24px 12%;
+	}
+}
+
+@media screen and (max-width:650px){/*mobile devices adaptation*/
+	.banner{
+		background-image:url('../images/banner_mobile.jpg');
+		background-image:linear-gradient(rgba(37,33,30,0.3), rgba(37,33,30,0.3)), url("../images/banner_mobile.jpg");
+	}
+	.user_display{/*increase the width ratio of user display area*/
+		width:92%;
+		margin:0 4%;
+	}
+	.user_display a{/*adjust the width ratio of user image*/
+		width:48%;
+		margin:0 1% 1% 1%;
+	}
+	.window{/*full width of device*/
+		width:92%;
+		margin:1rem 4%;
+	}
+	.signup_btn{
+		width:92%;
+		margin-left:4%;
+	}
+	.appstore{/*increase the width ratio of appstore button*/
+		float:left;
+		width:36%;
+		margin-left:0;
+	}
+	.googleplay{/*increase the width ratio of googleplay button*/
+		float:right;
+		width:36%;
+		margin-right:0;
+	}
+	.userdisplay_cover{
+		height:14rem;
+	}
+	.userdisplay_cover div{
+		display:none;
+	}
+	.introduction{/*increase the width ratio of introduction area*/
+		width:92%;
+		padding-left:4%;
+	}
+	.asseenon{
+		text-align:center;
+	}
+	.seenmedia{
+		height:4rem;
+		line-height:4rem;
+		background:#333333;
+		border-radius:8px;
+	}
+	.index_directory{
+		text-align:left;
+	}
+	.indexdir_div{
+		width:80%;
+		margin-left:20%;
+	}
+	.indexdir_div a{
+		width:100%;
+	}
+	.sdm_text{
+		background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("../images/bannersdm_mobile.jpg");
+	}
+}

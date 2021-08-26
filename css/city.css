@@ -1,0 +1,179 @@
+@charset "utf-8";
+/**************************************public**************************************/
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: "KaiTi";
+}
+img{
+	text-align: center;
+	vertical-align: middle;
+}
+/**************************************END public**************************************/
+.relative{
+	position: relative;
+	height: 615px;
+	margin: 20px 0 auto 0;
+}
+.welcome{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 440px;
+	z-index: 1;
+	padding-top: 270px;
+	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: "KaiTi";
+	background: #ffffff;
+}
+.welcome>span{
+	font-size: 48px;
+}
+.end{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 430px;
+	z-index: -1;
+	padding: 190px 0 80px;
+	text-align: left;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: "KaiTi";
+	background: #ffffff;
+}
+.end table{
+	width: 60%;
+	margin-left: 20%;
+}
+.end th{
+	font-size: 48px;
+	padding: 0 0 18px 0;
+}
+.end td{
+	font-size: 28px;
+	padding: 12px;
+}
+.end_tdText{
+	font-weight: normal;
+}
+.bar{
+	position: absolute;
+	left: 110px;
+	width: 900px;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	padding-right: 12px;
+	border-radius: 15px;
+	opacity: 0;
+}
+.text{
+	position: absolute;
+	left: 0;
+	width: 108px;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+	font-size: 20px;
+}
+#serial{
+	position: absolute;
+	font-size: 48px;
+	left: 0;
+	top: 0;
+	width: 110px;
+	height: 150px;
+	line-height: 150px;
+	text-align: right;
+}
+.sort{
+	position: absolute;
+	left: 0;
+	top: 150px;
+	width: 110px;
+	text-align: right;
+	font-size: 24px;
+	height: 50px;
+	font-weight: bold;
+}
+.title{
+	position: absolute;
+	left: 110px;
+	top: 50px;
+	width: 67%;
+	height: 50px;
+	text-align: center;
+	padding-left: 0;
+	font-size: 48px;
+	font-weight: bold;
+}
+.title>span{
+	font-size: 48px;
+	font-weight: normal;
+}
+.title>.dao_name{
+	font-size: 48px;
+	font-weight: normal;
+}
+.location{
+	position: absolute;
+	right: 355px;
+	top: 140px;
+	width: 67%;
+	text-align: center;
+	font-size: 42px;
+	color: #ffffff;
+}
+.location>span{
+	font-size: 42px;
+	font-weight: bold;
+}
+#detail{
+	position: absolute;
+	right: 0;
+	top: 45px;
+	width: 335px;
+	text-align: left;
+	border-left: 1px solid #bbbbbb;
+}
+table{
+	width: 100%;
+}
+th{
+	text-align: center;
+	padding: 12px 0 6px 0;
+	font-size: 24px;
+}
+.th_title{
+	text-align: center;
+	font-size: 44px;
+	font-weight: normal;
+	padding: 0 0 110px 0;
+}
+td{
+	text-align: left;
+	padding: 6px 2px;
+	font-size: 22px;
+}
+.td_option{
+	text-align: right;
+	font-weight: bold;
+}
+.ref{
+	font-size:14px;
+}
+.ref_border{
+	border-top: 1px solid #bbbbbb;
+}
+.tdTitleLen{
+	width: 36%;
+}

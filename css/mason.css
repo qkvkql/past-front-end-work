@@ -1,0 +1,86 @@
+@charset "utf-8";
+/**************************************public**************************************/
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	overflow-x:hidden;
+	font-size:14px;	
+}
+img{
+	text-align:center;
+	vertical-align:middle;
+}
+a:hover{
+	cursor:pointer;
+}
+/**************************************END public**************************************/
+header{
+	background:#c33e02;
+}
+header>h1{
+	padding:24px 0;
+	color:#ffffff;
+	text-align:center;
+}
+.content{
+	width:100%;
+}
+.content_c{
+	width:80%;
+	margin:14px 10%;
+}
+.content_c:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.content_c>div{
+	width:25%;
+	float:left;
+	padding:14px 0;
+}
+@media screen and (max-width:850px){
+	.content_c>div{
+		width:50%;
+	}
+}
+@media screen and (max-width:500px){
+	.content_c>div{
+		width:100%;
+	}
+}
+a{
+	text-decoration:none;
+}
+@media screen and (max-width:500px){
+	a{
+		font-size:22px;
+	}
+}
+a:hover{
+	text-decoration:underline;
+}
+.tid, .tid:visited{
+	color: #4286f5;
+}
+.gold, .gold:visited{
+	color: #ff9800;
+}
+.censor, .censor:visited{
+	color: #c1c1c1;
+}
+.home, .home:visited{
+	color: #000000;
+}
+.other, .other:visited{
+	color: #34a853;
+}
+footer{
+	background:#666666;
+}
+footer>p{
+	padding:24px 0;
+	color:#ffffff;
+	text-align:center;
+}

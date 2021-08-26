@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	overflow-x:hidden;
+	font-size:14px;
+}
+ul{
+	list-style:none;
+}
+img{
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+}
+a:hover{
+	cursor:pointer;
+}
+
+#header{
+	width:100%;
+	background: -webkit-linear-gradient(left,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to right,#FF0000,#FF7D00,#FFFF00,#00FF00,#0000FF,#00FFFF,#FF00FF); /* Standard */
+}
+.header-c{
+	margin:1.5rem 12%;
+	text-align:center;
+	font-size:3rem;
+	font-weight:bold;
+}
+@media screen and (max-width:750px){
+	.header-c{
+		margin:1rem 12%;
+		font-size:1.5rem;
+	}
+}
+#content{
+	width:100%;
+	background-image:url(../images/encryption_banner.jpg);
+	background-image:linear-gradient(rgba(37,33,30,0.3), rgba(37,33,30,0.3)), url(../images/encryption_banner.jpg);
+	background-size:cover;
+	background-position:center top;
+}
+.content-c{
+	padding:1rem 12% 40rem;
+}
+.encryption{
+	width:100%;
+}
+.encryption-c{
+	width:100%;
+	padding:1rem 0;
+}
+.enc-title{
+	width:100%;
+}
+.enc-title-c{
+	padding:0.5rem 0;
+	font-size:1rem;
+	color:#ffffff;
+}
+.enc-input{
+	width:100%:
+}
+.enc-input-c{
+	padding:0.5rem 0;
+}
+.enc-input-tag{
+	width:99%;
+	height:3rem;
+	border:1px solid #000000;
+	border-radius:4px;
+	font-size:1.5rem;
+	font-weight:bold;
+}
+.enc-input-tag[type=text]:focus{
+	outline:none;
+	border:1px solid #1E90FF;
+}
+.enc-input-tag[type=text]::placeholder{
+	color:#D3D3D3;
+	font-weight:normal;
+}
+.enc-input-tag[type=text]:focus::placeholder{
+	color:#ffffff;
+}
+@media screen and (max-width:750px){
+	.enc-input-tag{
+		font-size:1rem;
+		font-weight:normal;
+	}
+}
+.enc-submit{
+	width:100%;
+}
+.enc-submit-c{
+	padding:1rem 0;
+	text-align:center;
+}
+.submit{
+	padding:1rem;
+	text-align:center;
+	border:1px solid #ffffff;
+	border-radius:4px;
+	font-size:1.5rem;
+	font-weight:bold;
+	background:#00FF00;
+	color:#000000;
+}
+.submit:hover{
+	cursor:pointer;
+	-moz-opacity: 0.90!important;
+	filter:alpha(opacity=90);
+	opacity:0.9;
+}
+#footer{
+	width:100%;
+	background: -webkit-linear-gradient(left,#FF00FF,#00FFFF,#0000FF,#00FF00,#FFFF00,#FF7D00,#FF0000); /* Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,#FF00FF,#00FFFF,#0000FF,#00FF00,#FFFF00,#FF7D00,#FF0000); /* Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,#FF00FF,#00FFFF,#0000FF,#00FF00,#FFFF00,#FF7D00,#FF0000); /* Firefox 3.6 to 15 */
+	background: linear-gradient(to right,#FF00FF,#00FFFF,#0000FF,#00FF00,#FFFF00,#FF7D00,#FF0000); /* Standard */
+}
+.footer-c{
+	margin:1rem 12%;
+	text-align:right;
+}
+.footer-c a{
+	font-size:2rem;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:underline;
+	text-decoration-color:#ffffff;
+}
+.footer-c a:hover{
+	text-decoration-color:#000000;
+}
+@media screen and (max-width:750px){
+	.footer-c a{
+		font-size:1rem;
+	}
+}

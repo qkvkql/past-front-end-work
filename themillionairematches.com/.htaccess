@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Redirect non-https to https
+RewriteBase /
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} !^www\.(.*)   
+RewriteRule (.*) http://www.%{HTTP_HOST}/$1 [R=301,L]  
+
+# Redirect .php to non-.php
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+
+# Redirect .html to non-.html
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]

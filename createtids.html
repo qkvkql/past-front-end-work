@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" href="css/createtids.css" type="text/css" />
+	<script src="javascript/createtids.min.js" type="text/javascript"></script>
+	<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<title>create tids</title>
+</head>
+<body>
+	<header>
+		<div class="header_c">
+			<h1>Create Tids</h1>
+		</div>
+	</header>
+	<div class="content">
+		<div class="content_c">
+			<div class="radioarea">
+				<div class="radioarea_c">
+					<h2>Select Project:</h2>
+					<label class="radio" for="mm">
+						<div class="radio_circle">
+							<input type="radio" name="site" id="mm" value="0"/>
+						</div>
+						<div class="radio_text">MillionaireMatch</div>
+					</label>
+					<label class="radio" for="ps">
+						<div class="radio_circle">
+							<input type="radio" name="site" id="ps" value="1"/>
+						</div>
+						<div class="radio_text">PositiveSingles</div>
+					</label>
+					<label class="radio" for="bi">
+						<div class="radio_circle">
+							<input type="radio" name="site" id="bi" value="2"/>
+						</div>
+						<div class="radio_text">Bicupid</div>
+					</label>
+					<label class="radio" for="sdm">
+						<div class="radio_circle">
+							<input type="radio" name="site" id="sdm" value="3"/>
+						</div>
+						<div class="radio_text">SugarDaddyMeet</div>
+					</label>
+				</div>
+			</div>
+			<div class="manualarea">
+				<div class="manualarea_c">
+					<div class="manual" id="staffname">
+						<h2>Staff Name:</h2>
+						<input id="tid_descr" type="hidden"/>
+						<input type="text" class="iname"/>
+						<br/>
+						<label class="casediv" for="case"><input type="checkbox" id="case" checked tabindex="-1" /><div class="casetext">First Letter Uppercase</div></label>
+					</div>
+					<div class="manual" id="staffid">
+						<h2>Staff Id:</h2>
+						<input id="staff_id" type="hidden"/>
+						<input type="text" class="iid"/>
+						<img src="images/createtids_help.png" id="help_staffid" title="If there is no matched Staff Id for the Staff Name you input, you can do the following to get Staff Id: &#13&#13 ①Create a tid that already exists. &#13 ②Load into the page with red 'the tracking id *** already exists'. &#13 ③In the URL/link you will find Staff Id after 'staff_id='." />
+					</div>
+				</div>
+			</div>
+			<div class="tidarea">
+				<div class="tidarea_c">
+					<h2 title="Tracking Ids">Tids:</h2>
+					<textarea id="tids" placeholder="Please Use <Carriage Return>/<Enter Key> to Separate 2 tids"></textarea>
+					<h3 class="grey">Please <span class="red">ALLOW</span> Pop-ups in the Browser Settings(Windows Chrome as Example):</h3>
+					<p class="grey">Chrome: Settings - Advanced - Privacy and security - Site Settings - Pop-ups and redirects - <span class="red">Allowed</span></p>
+					<p class="grey">Chrome: 设置 - 高级 - 隐私设置和安全性 - 网站设置 - 弹出式窗口和重定向 - <span class="red">允许</span></p>
+				</div>
+			</div>
+			<div class="submitarea">
+				<div class="submitarea_c">					
+					<button id="btn">Create Tids</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer_c"></div>
+	</footer>
+</body>
+</html>
