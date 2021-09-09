@@ -4,7 +4,7 @@
 https://www.themillionairematches.cub.name/
 
 
-2019.06 移位加密解密(原生js, 密码：0727)
+2019.06 移位加密解密(原生js, 入口密码：0727)
 https://www.cub.name/encryption
 
 
@@ -12,11 +12,11 @@ https://www.cub.name/encryption
 https://www.sugardaddywebsites.xyz/
 
 
-2019.12 输入检查+事件绑定(原生js)
+2019.12 添加id(原生js)
 https://www.cub.name/createtids
 
 
-2020.02 快捷复制板(原生js + clipboard.js + JSON + PHP)
+2020.02 快捷复制板(原生js + clipboard.js + .json配置文件 + PHP)
 https://www.cub.name/fastcopy
 
 
